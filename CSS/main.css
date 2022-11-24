@@ -1,0 +1,234 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    -webkit-background-size:cover;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size:cover;
+    background-position:center center;
+    height:100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+    font-weight:600;
+    font-size:20px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 70px;
+}
+.logo{
+    cursor:pointer;
+}
+.nav-area{
+    list-style: none;
+}
+.nav-area li{
+    display:inline-block;
+    padding:0px 15px;
+    text-transform: uppercase;   ;
+}
+.nav-area li a{
+    transition:.3s;
+    color:black;
+}
+.nav-area li a:hover{
+    color:#ff0000;
+    text-decoration: underline;
+}
+.nav ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #91e92c;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+} 
+.nav ul li:hover::after{
+	width: 100%;
+}
+.btn-area{
+    cursor:pointer;
+    color:whitesmoke;
+    font-size: 16px;
+    letter-spacing:1.5px;
+    padding:10px 20px;
+    border-radius:40px;
+    background:#000000;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.btn-area:hover{
+    color: orange;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0;
+}
+.col-1
+{
+    flex-basis: 30%;
+    position:relative;
+    margin-left: 50px;
+}
+.col-1 h1{
+    font-size: 54px;
+}
+.col-1 h3{
+    font-size: 30px;
+   
+font-weight:100;
+margin:20px 0 20px;
+}
+.col-1 p{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#1e2f97;
+    font-weight:100;
+}
+.col-1 h4{
+    margin:30px 0;
+    font-size: 20px;
+    color:#545b62;
+}
+button{
+    width:140px;
+    border: 0;
+    padding:12px 10px;
+    outline:none;
+    color:#fff;
+    background: linear-gradient(to right,#fb5283,#ff3527);
+    border-radius: 6px;
+    cursor:pointer;
+    transition:width 0.5s;
+}
+button img{
+    width:30px;
+    display:none;
+}
+button:hover img{
+    display: block;
+}
+button:hover{
+    width:160px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.col-2{
+    position: relative;
+    flex-basis: 50%;
+    display: flex;
+    align-items: right;
+    float:right
+}
+.col-2 .student{
+    width:90%;
+}
+
+@media only screen and (max-width:700px){
+    nav ul{
+        width:100%;
+        background: linear-gradient(#ff54a2,#ff575a);
+        position: absolute;
+        top:75px;
+        right:0;
+        z-index:2;
+    }
+    nav ul li
+    {
+        display:inline-block;
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+    nav ul li a
+    {
+        color:#fff;
+
+    }
+ 
+    .row{
+        flex-direction: column-reverse;
+        margin:50px 0;
+    }
+}
+.box-conatiner{  
+    width: 100%;  
+    max-width: 1440px;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    flex-flow: wrap;  
+}  
+.box{  
+    width: 269px;  
+    padding: 15px;  
+    min-height: 430px;  
+}  
+.box1{  
+    background-color: hsl(31,77%,52%);  
+    border-top-left-radius: 10px;  
+    border-bottom-left-radius: 10px;  
+}  
+.box2{  
+    background-color: hsl(184,100%,22%);  
+}  
+.box3{  
+    background-color: hsl(179,100%,13%);  
+    border-top-right-radius: 10px;  
+    border-bottom-right-radius: 10px;  
+}  
+.content{  
+    padding: 10px;  
+}  
+h1{  
+    color: hsl(0,0%,95%);  
+    text-transform: uppercase;  
+    font-family: 'Lexend Deca', sans-serif;  
+    margin: 20px 0;  
+}  
+p{  
+    color: hsla(0,0%,100%,0.75);  
+    font-family: 'Big Shoulders Display', cursive;  
+}  
+.btn{  
+    margin: 60px 0;  
+    padding: 15px 40px;  
+    border: 0;  
+    border-radius: 30px;  
+    outline: none;  
+    background-color: #FFF;  
+    font-size: 15px;  
+    cursor: pointer;  
+    font-family: 'Lexend Deca', sans-serif;  
+    font-weight: 700;  
+}  
+.btn1{  
+    color: hsl(31, 77%, 52%);  
+}  
+.btn2{  
+    color: hsl(184, 100%, 22%);  
+}  
+.btn3{  
+    color: hsl(179, 100%, 13%);  
+}  
+.btn:hover{  
+    background-color: transparent;  
+    border: 2px solid #FFF;  
+    color: #FFF;  
+    transition: 0.4s;  
+}  
