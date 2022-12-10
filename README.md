@@ -10,5 +10,5 @@ You can login to the website by entering your username and password in the forma
 ![developers](https://user-images.githubusercontent.com/111991577/206861914-7969c963-da9e-4adf-bede-46505eb4c76b.png)
 In this page, you will be able to view the details of the developers of this website and contact them if you have any doubts through the links provided.
 # Perks Page
-![perks](https://user-images.githubusercontent.com/111991577/206861655-821740f4-bda4-4a36-bb68-371042d70f3a.png)
+![perks](https://user-images.githubusercontent.com/111991577/206862075-956840be-f985-4a14-ab29-701fc093a28c.png)
 In this section, you will be able to view the various rewards that can be claimed for the assignments submitted.
