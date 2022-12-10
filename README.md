@@ -8,3 +8,4 @@ The Homepage has a very user friendly interface that helps you to reach any sect
 You can login to the website by entering your username and password in the format specified.Once logged in, you will be able to view the other sections of the website.
 # Developers Page
 ![developers](https://user-images.githubusercontent.com/111991577/206861053-e687ac7f-39aa-4e9a-8cd9-ec00e223f492.png)
+In this page, you will be able to view the details of the developers of this website and contact them if you have any doubts through the links provided.
